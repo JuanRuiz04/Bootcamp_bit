@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans';
+}
+
+body{
+    background-color: #eff2f5;
+}
+
+.contenedor{
+    max-width: 980px;
+    margin: 100px auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+
+.logo{
+    margin-top: 50px;
+    width: 280px;
+    transform: rotateY('10')
+}
+
+.barra1{
+    width: 500px;
+    padding-right: 32px
+}
+
+.barra1 p{
+    font-size: 28px ;
+}
+
+.barra2{
+    width: 400px;
+}
+
+form{
+    background-color: #fff;
+    padding: 10px;
+    box-shadow: 0 2px 4px rgb(0 0 0/10%), 0 8px 16px rgb(0 0 0 /10%);
+    border-radius: 12px;
+    text-align: center;
+}
+
+input{
+    display: block;
+    width: 100%;
+    padding: 16px;
+    margin: 6px 0;
+    border: 1px solid #dddfe2;
+    border-radius: 12px;
+}
+
+.iniciar{
+    display: block;
+    width: 100%;
+    background-color: #1877f2;
+    font-size: 20px;
+    font-weight: bold;
+    border: none;
+    border-radius: 6px;
+    padding: 16px;
+    text-decoration: none;
+    color: #fff;
+    margin: 20px 0
+}
+
+hr{
+    margin: 16px 0;
+    border: 1px solid #ddd;
+}
+
+.nueva{
+    display: block;
+    width: 200px;
+    margin: auto;
+    background-color: #42b72a;
+    padding: 16px;
+    border-radius: 6px;
+    color: #fff;
+    font-size: 17px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.barra2 p{
+    font-size: 14px;
+    text-align: center;
+    margin-top: 28px;
+}
+
+@media (max-width: 900px ){
+    .contenedor{
+        flex-direction: column;
+        margin: 0 auto;
+    }
+    
+    .barra1{
+        margin: auto;
+        text-align: center;
+        width: 400px;
+        padding-right: 0;
+    }
+
+    .barra1 p{
+        font-size: 22px;
+    }
+
+    .barra2{
+        margin: auto;
+    }
+
+    form{
+        margin-top: 50px;
+    }
+}
+
+.enlacesFooterIdiomas{
+    display: flex;
+    flex-wrap: wrap;
+    width: 950px;
+    justify-content: center;
+    align-items: center;
+}
+
+.enlacesFooterIdiomas div {
+    font-size: 11px;
+    padding: 10px 8px 0;
+    color: rgb(142, 142, 142);
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 70px !important;
+}
+
+.enlacesFooter{
+    margin-top: 20px;
+    display: flex;
+    font-size: 11px;
+    color: rgb(142, 142, 142);
+}
+
+.enlacesFooter select {
+    font-size: 11px;
+    border: 0;
+    width: 60px;
+    margin-right: 15px;
+    color: rgb(142, 142, 142);
+}
+
+footer {
+    margin-bottom: 500px;
+}
+
+
